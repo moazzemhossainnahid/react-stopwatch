@@ -65,6 +65,9 @@ export default function App() {
   const time = parseTime(state.currentTime);
   return (
     <div className="bg-gray-900 text-white h-screen flex flex-col justify-center items-center">
+      <div className="pb-16">
+        <h3 className="text-5xl font-sans font-bold text-orange-500">React <span className="text-rose-500">StopWatch</span></h3>
+      </div>
       <span className="text-6xl font-bold tabular-nums">
         {time.hours.toString().padStart(2, "0")}:
         {time.minutes.toString().padStart(2, "0")}:
