@@ -1,5 +1,6 @@
 // import "./styles.css";
 import { useEffect, useReducer } from "react";
+import Designer from "./Designer";
 
 interface StopwatchState {
   running: boolean;
@@ -96,6 +97,9 @@ export default function App() {
             Stop
           </button>
         )}
+      </div>
+      <div className="flex w-full justify-end items-end p-5">
+        <Designer/>
       </div>
     </div>
   );
