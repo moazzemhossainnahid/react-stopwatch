@@ -71,7 +71,7 @@ export default function App() {
         {time.seconds.toString().padStart(2, "0")}.
         {time.milliseconds.toString().padStart(3, "0")}
       </span>
-      <div className="space-x-4">
+      <div className="space-x-6 space-y-5">
         <button
           onClick={() => dispatch({ type: "reset" })}
           className="bg-yellow-500 hover:bg-yellow-600 border-4 border-yellow-700 rounded-full w-16 h-16"
